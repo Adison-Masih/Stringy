@@ -1,5 +1,5 @@
 /*
-	StringTyper.JS
+	Stringy.JS
 */
 
 // Is Int Valued
