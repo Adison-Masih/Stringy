@@ -4,7 +4,7 @@ A Simple String Methods Extension
 StringyJS Is A Simple Yet Useful Library Created To Extend The Default String Methods Provided By JavaScript.
 
 ## CDN
-StringTyper Is Hosted On JSDelivr:\
+Stringy Is Hosted On JSDelivr:\
 ```<script src='https://cdn.jsdelivr.net/gh/Adison-Masih/Stringy/include.js'></script>```
 Minified version:\
 ```<script src='https://cdn.jsdelivr.net/gh/Adison-Masih/Stringy/include.min.js'></script>```
