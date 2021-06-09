@@ -1,7 +1,7 @@
 # StringyJS
 A Simple String Methods Extension 
 
-StringTyper.JS Is A Simple Yet Useful Library Created To Extend The Default String Methods Provided By JavaScript.
+StringyJS Is A Simple Yet Useful Library Created To Extend The Default String Methods Provided By JavaScript.
 
 ## CDN
 StringTyper Is Hosted On JSDelivr:\
