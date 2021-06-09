@@ -119,7 +119,7 @@ usage:\
 Escapes all SQL Injection Validators.
 
 usage:\
-`"SELECT * FROM world WHERE someone LIKE %you%''".escape()`
+`"SELECT * FROM world WHERE someone LIKE '%you%'".escape()`
 
 ### String.removeSpecialChars()
 removes all special characters in a string.
