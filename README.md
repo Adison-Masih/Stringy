@@ -7,5 +7,5 @@ StringTyper.JS Is A Simple Yet Useful Library Created To Extend The Default Stri
 Currently StringTyper.JS Includes 16 Different String Extension Methods.
 
 ### String.isIntValued()
-This method Will Return True if the string has no alphabets and special characters and only integers.\
+This method Will Return True if the string has no alphabets and special characters and only integers.\\
 `"10".isIntValued() // returns true`
