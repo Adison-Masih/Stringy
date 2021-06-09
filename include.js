@@ -59,6 +59,12 @@ String.prototype.wrapInTag = function(tag = 'p') {
     }
 }
 
+// creates a link from string
+
+String.prototype.createLink = function (href) {
+	return `<a href='${href}'>${this}</a>`
+}
+
 // eXec JS from string
 
 String.prototype.exec = function() {
@@ -114,18 +120,6 @@ String.prototype.isActualWord = function() {
     }
 }
 
-// check if string ends with certain chars
-
-String.prototype.endsWith = function(word = '', scope = 1) {
-    let str = this.toLowerCase()
-    word = word.toLowerCase()
-    let slice = str.slice(-scope)
-    if (slice == word) {
-        return true
-    } else {
-        return false
-    }
-}
 
 // kebab case is what css uses, hi-my-name-is-js
 
@@ -177,6 +171,10 @@ String.prototype.capitalize = function () {
 	return this.replace(/\w\S*/g, function(txt){
         return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
     });
+}
+
+String.prototype.capitalizeFirst = function () {
+    return this[0].toUpperCase() + this.slice(1);
 }
 
 // escape the string (escapes SQL invalidators)
