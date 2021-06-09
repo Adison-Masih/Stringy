@@ -1,19 +1,19 @@
-# stringTyper
+# StringyJS
 A Simple String Methods Extension 
 
 StringTyper.JS Is A Simple Yet Useful Library Created To Extend The Default String Methods Provided By JavaScript.
 
 ## CDN
 StringTyper Is Hosted On JSDelivr:\
-```<script src='https://cdn.jsdelivr.net/gh/Adison-Masih/stringTyper/include.js'></script>```
+```<script src='https://cdn.jsdelivr.net/gh/Adison-Masih/Stringy/include.js'></script>```
 Minified version:\
-```<script src='https://cdn.jsdelivr.net/gh/Adison-Masih/stringTyper/include.min.js'></script>```
+```<script src='https://cdn.jsdelivr.net/gh/Adison-Masih/Stringy/include.min.js'></script>```
 
 ## Support
 If you face any problem, kindly raise a new issue.
 
 ## Methods
-Currently StringTyper.JS Includes 15+ Different String Extension Methods.
+Currently StringyJS Includes 15+ Different String Extension Methods.
 
 ### String.isIntValued()
 This method Will Return True if the string has no alphabets and special characters and only integers.\
@@ -21,7 +21,7 @@ This method Will Return True if the string has no alphabets and special characte
 `"10".isIntValued() // returns true`
 
 ### String.gappedRepeat()
-The predefined String.repeat() does not allow you to add some prefixes and suffixes based on the repeat count, well, StringTyper has got you covered.
+The predefined String.repeat() does not allow you to add some prefixes and suffixes based on the repeat count, well, Stringy has got you covered.
 
 To Repeat The String:\
 `"hi".gappedRepeat(2) // returns 'hihi'`
@@ -103,7 +103,7 @@ usage:\
 `"10".decrement() // returns '9'`
 
 ### String.declare()
-want a dynamic variable name? StringTyper gotcha!
+want a dynamic variable name? Stringy gotcha!
 
 usage:\
 `"abc".declare("this is value") // declares a variable abc with the provided value`
