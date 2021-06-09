@@ -5,7 +5,7 @@ StringTyper.JS Is A Simple Yet Useful Library Created To Extend The Default Stri
 
 ## CDN
 StringTyper Is Hosted On JSDelivr:\
-```<script src='https://cdn.jsdelivr.net/gh/Adison-Masih/stringTyper/include.js'></script>```
+```html <script src='https://cdn.jsdelivr.net/gh/Adison-Masih/stringTyper/include.js'></script>```
 
 ## Methods
 Currently StringTyper.JS Includes 15+ Different String Extension Methods.
