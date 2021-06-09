@@ -55,6 +55,12 @@ if you wanna check if a word is capitalized or not, then this function enters th
 usage:\
 `"Hi".isCapitalized() // returns true`
 
+### String.isLowerCase()
+if you wanna check if a word is in lowercase or not, then this function enters the chat.
+
+usage:\
+`"hi".isLowerCase() // returns true`
+
 ### String.isActualWord()
 if you wanna check if a word is an actual word and is included in the english dictionary then this function can help.\
 **Note**: This Function Requires jQuery v^2.4.1 If jQuery Is Not Included, It Will Throw An Error.
