@@ -9,6 +9,9 @@ StringTyper Is Hosted On JSDelivr:\
 Minified version:\
 ```<script src='https://cdn.jsdelivr.net/gh/Adison-Masih/stringTyper/include.min.js'></script>```
 
+## Support
+If you face any problem, kindly raise a new issue.
+
 ## Methods
 Currently StringTyper.JS Includes 15+ Different String Extension Methods.
 
