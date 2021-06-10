@@ -1,4 +1,5 @@
-# StringyJS
+# StringyJS Beta
+This branch contains many upcoming features to be included in StringyJS.
 A Simple String Methods Extension 
 
 StringyJS Is A Simple Yet Useful Library Created To Extend The Default String Methods Provided By JavaScript.
