@@ -87,39 +87,37 @@ String.prototype.isCapitalized = function() {
 
 // check if given string (word) is in the english dictionary
 
-String.prototype.isActualWord = function() {
-	if($ == undefined) {
-		throw new Error("Please Include jQuery In Your Project!")
-		return
-	}
-    if ($ != undefined) {
-        let str = this.toLowerCase()
-        let res = false
-            
-            const url = "https://api.wordnik.com/v4/word.json/" + str + "/definitions?limit=200&includeRelated=false&useCanonical=false&includeTags=false&api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5";
+String.prototype.isActualWordProcess = async function() {
+  let str = this.toLowerCase()
+  let res = false
+  let myHeaders = new Headers();
+  let myInit = { method: 'GET',
+               headers: myHeaders,
+               mode: 'cors',
+               cache: 'default' };
+      
+  const url = "https://api.wordnik.com/v4/word.json/" + str + "/definitions?limit=200&includeRelated=false&useCanonical=false&includeTags=false&api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5";
 
-            try {
-	            $.ajax({
-	                type: "GET",
-	                url: url,
-	                async: false,
-	                success: function (data) {
-	                	res = true
-	                },
-	                error: function (data) {
-	                	 res = false
-	                }
-	            })
-        	}
-            catch(e) {
-            	throw new Error(e.message)
-            }
-        return res
-    } else {
-    	throw new Error("Please Include jQuery In Your Project")
-    }
+  try {
+    const data = await fetch(url)
+    .then((response) => {
+      return response.json();
+    });
+      if(data[0] != undefined) {
+          res = true
+      }
+  }
+  catch(e) {
+    console.log('there was an error', e)
+      throw new Error(e.message)
+      }
+  return res
 }
 
+String.prototype.isActualWord = async function () {
+  let check = await this.isActualWordProcess()
+  return check
+}
 
 // kebab case is what css uses, hi-my-name-is-js
 
