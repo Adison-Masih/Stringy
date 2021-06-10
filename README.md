@@ -9,6 +9,9 @@ Stringy Is Hosted On JSDelivr:\
 Minified version:\
 ```<script src='https://cdn.jsdelivr.net/gh/Adison-Masih/Stringy/include.min.js'></script>```
 
+## NPM Package
+Stringy Is Available On NPM as [Stringy.JS](https://www.npmjs.com/package/stringy.js)
+
 ## Support
 If you face any problem, kindly raise a new issue.
 
